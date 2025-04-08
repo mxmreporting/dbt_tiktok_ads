@@ -56,7 +56,7 @@ aggregated as (
         sum(hourly.clicks) as clicks,
         sum(hourly.spend) as spend,
         sum(hourly.reach) as reach,
-        --sum(hourly.conversion) as conversions
+        sum(hourly.conversion) as conversions,
         sum(hourly.likes) as likes,
         sum(hourly.comments) as comments,
         sum(hourly.shares) as shares,
